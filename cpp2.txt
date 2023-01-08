@@ -1,0 +1,29 @@
+
+//saminsoltanieh
+
+
+#include <iostream>
+using namespace std;
+int main()
+{
+float income;
+float add;
+float expense=0;
+for(int i=0;i<12;i++)
+{
+    cout<<"Please Enter the income : ";
+    cin>>income;
+     if (income==0)
+    break;
+    add=(income*(2.0/5))/100;
+    cout<<income<<endl;
+ cout<<add<<endl;
+    expense+=add;
+    
+    
+}
+cout<<"\n this is the total expense:"<<expense;
+
+    return 0;
+    
+}
